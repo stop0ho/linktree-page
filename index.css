@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ROEHOE-CHAN';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/ROEHOE-CHAN.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HBIOS-SYS';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/HBIOS-SYS.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #FEE5EB;
+    font-family: 'HBIOS-SYS';
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100%;
+    border: 4px solid white;
+
+    background-image: url('./profile3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.main {
+    font-size: 40px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: black;
+    text-shadow: 2px 2px 0 rgb(158, 158, 158);
+}
+
+.sub {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: gray;
+    text-shadow: 1px 1px 0 rgb(204, 204, 204);
+}
+
+.wrap {
+    width: 300px;
+    margin: 30px auto 0px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap > a {
+    width: 300px;
+    height: 50px;
+
+    background-color: #FCB7D0;
+    border-radius: 8px;
+
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(66, 65, 65);
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 rgb(221, 220, 220);
+
+    box-shadow: 3px 3px 5px 0px rgb(185, 184, 184);
+    
+}
+
+.img {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.tistory {
+    margin-left: 13px;
+    width: 25px;
+    height: 25px;
+}
+.content {
+    margin-left: 80px;
+}
+
+.git {
+    margin-left: 95px;
+}
